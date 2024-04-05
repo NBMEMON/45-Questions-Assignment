@@ -18,3 +18,4 @@ console.log(whitespacename);
 
 let withoutwhitespacename=(whitespacename.trim());
 console.log(withoutwhitespacename);
+// Sixth Question Done
