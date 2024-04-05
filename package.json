@@ -1,0 +1,11 @@
+{
+  "name": "45-questions-assignment",
+  "version": "1.0.0",
+  "description": "\"Answering 45 question given in assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naeeb Sohail",
+  "license": "ISC"
+}
