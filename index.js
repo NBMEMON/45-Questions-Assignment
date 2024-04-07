@@ -25,9 +25,9 @@ console.log("\t", 64 / 8, "\t");
 // Seventh Question Done
 var fav_Num = "10";
 console.log("My Favourite Number is " + fav_Num);
-// Eight Questions Done
+// Eight&Ninth Questions Done
 // Completing the assignment doing the following questions
-// Ninth Question Done
+// Tenth Question Done
 var friendsName = ["Ashraf", "Nasir", "Abid"];
 friendsName.forEach(function (friendsName) { return console.log(friendsName); });
-// Tenth Question Done
+// Eleventh Question Done
