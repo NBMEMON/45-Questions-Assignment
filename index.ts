@@ -54,3 +54,24 @@ friendsName.forEach(friendsName => console.log(friendsName));
 
 // Eleventh Question Done
 
+let friendsName1=["Shahruk","Amir","Salman"];
+friendsName1.forEach(friendsName1 => console.log(`Hey ${friendsName1} How are you?`));
+
+// Twelfth Question Done
+
+let transportationModes = ["Kawasaki Bike","Mercedes","Private Jet","Yatch"];
+transportationModes.forEach(transportationModes => console.log(`I would like to own a ${transportationModes}`));
+
+// Thirteenth Question Done
+
+let guestName = ["Ashraf","Nasir","Abid"];
+guestName.forEach(guestName => console.log(`Assalamulaiakum ${guestName} , I have organized a dinner party you are also invited will you come?`));
+
+// Fourteenth Question Done
+ 
+let guestName1 = ["Shahruk","Amir","Salman"]
+let notComing = guestName1[0];
+console.log (notComing , `is not coming in party`);
+guestName1.splice(0,1,"Ashraf");
+
+guestName1.forEach(guestName1 => console.log (`Assalamulaiakum ${guestName1} , I have organized a dinner party you are also invited will you come?`))

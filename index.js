@@ -31,3 +31,17 @@ console.log("My Favourite Number is " + fav_Num);
 var friendsName = ["Ashraf", "Nasir", "Abid"];
 friendsName.forEach(function (friendsName) { return console.log(friendsName); });
 // Eleventh Question Done
+var friendsName1 = ["Shahruk", "Amir", "Salman"];
+friendsName1.forEach(function (friendsName1) { return console.log("Hey ".concat(friendsName1, " How are you?")); });
+// Twelfth Question Done
+var transportationModes = ["Kawasaki Bike", "Mercedes", "Private Jet", "Yatch"];
+transportationModes.forEach(function (transportationModes) { return console.log("I would like to own a ".concat(transportationModes)); });
+// Thirteenth Question Done
+var guestName = ["Ashraf", "Nasir", "Abid"];
+guestName.forEach(function (guestName) { return console.log("Assalamulaiakum ".concat(guestName, " , I have organized a dinner party you are also invited will you come?")); });
+// Fourteenth Question Done
+var guestName1 = ["Shahruk", "Amir", "Salman"];
+var notComing = guestName1[0];
+console.log(notComing, "is not coming in party");
+guestName1.splice(0, 1, "Ashraf");
+guestName1.forEach(function (guestName1) { return console.log("Assalamulaiakum ".concat(guestName1, " , I have organized a dinner party you are also invited will you come?")); });
